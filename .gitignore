@@ -1,5 +1,8 @@
 *.png
 *.pdf
 static*
+assets*
 *.sh
 s?wk??*_*.html
+templates*
+stuff*
