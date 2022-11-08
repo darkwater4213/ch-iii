@@ -1,0 +1,79 @@
+/****************************
+ * class: JA2               *
+ * type:  worksheet         *
+ * cycle: arrangement       *
+ * notes: Outline Template  *
+ ****************************/
+{
+    "introduction": {
+        "exordium": "",
+        "narratio": [
+            "",
+            ""
+            // action location time
+        ],
+        "division": {
+            "agreement": "",
+            "disagreement": {
+                "thesis": "",
+                "counter": ""
+            }
+        },
+        "distribution": {
+            // thesis
+            "enum": "three",
+            "exposition": [
+                "",
+                "",
+                ""
+            ]
+        }
+    },
+    "case": [
+        [
+            "",
+            "",
+            ""
+        ],
+        [
+            "",
+            "",
+            ""
+        ],
+        [
+            "",
+            "",
+            ""
+        ]
+    ],
+
+    "refutation": [
+        // Counter Thesis*
+        [
+            "",
+            "",
+            "",
+            ""
+        ],
+        [
+            "",
+            "",
+            "",
+            ""
+        ],
+        ""
+    ],
+
+    "conclusion": {
+        // thesis
+        "summary": [
+            "",
+            "",
+            ""
+        ],
+        "amplification": {
+            "to": "",
+            "why": ""
+        }
+    }
+}

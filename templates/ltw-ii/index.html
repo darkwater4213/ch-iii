@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>  <html class="no-js lt-ie9 lt-ie8 lt-ie7">    <![endif]-->
+<!--[if IE 7]>     <html class="no-js lt-ie9 lt-ie8">           <![endif]-->
+<!--[if IE 8]>     <html class="no-js lt-ie9">                  <![endif]-->
+<!--[if gt IE 8]>  <html class="no-js">                         <![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>?play | LTW II</title>
+        <meta name="description" content="?description">
+        <meta name="wordcount" content="1005">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../templates/mla-essay.css">
+    </head>
+    <body>
+        <div class="header">
+            <p class="attrib print">
+                Name: Douglas Anthony<br/>
+                Date: ?day ?month ?date, ?year <i>Ann&omacr; Domin&imacr;</i><br/>
+                Play Title: ?play
+            </p>
+            <p class="attrib screen">
+                Douglas Anthony<br/>
+                LTW II Week ?week: ?play<br/>
+                ?month ?date, ?year <i>Ann&omacr; Domin&imacr;</i>
+            </p>
+            <p class="title">
+                ?title
+            </p>
+        </div>
+        <div class="content">
+            <!--[if lt IE 7]>
+                <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+            <![endif]-->
+            <p id="introduction">
+                <span id="exordium">
+                    $introduction.exordium
+                </span>
+                <span id="narratio">
+                    $introduction.narratio
+                </span>
+                <span id="agreement">
+                    $introduction.division.agreement
+                </span>
+                <span id="disagreement">
+                    $introduction.division.disagreement
+                </span>
+                <span id="distribution">
+                    <!--
+                        Today, I will prove to you that
+                    -->
+                    $introduction.division.disagreement.thesis
+                </span>
+                <span id="exposition">
+                    <!--
+                        This I will do in three parts: firstly, $introduction.distribution.exposition.0, secondly, $introduction.distribution.exposition.1, and finally, $introduction.distribution.exposition.2
+                    -->
+                </span>
+            </p>
+            <p id="body-1">
+                $case.0.0
+                $case.0.1
+                $case.0.2
+            </p>
+            <p id="refutation-1">
+                $refutation.0.0
+                $refutation.0.1
+                $refutation.0.2
+                $refutation.0.3
+            </p>
+            <p id="body-2">
+                $case.1.0
+                $case.1.1
+                $case.1.2
+            </p>
+            <p id="refutation-2">
+                $refutation.0.0
+                $refutation.0.1
+                $refutation.0.2
+                $refutation.0.3
+            </p>
+            <p id="body-3">
+                $case.2.0
+                $case.2.1
+                $case.2.2
+            </p>
+            <p id="conclusion">
+                $conclusion.amplification
+                <span id="amplification">
+                    $conclusion.amplification.to
+                    $conclusion.amplification.why
+                </span>
+            </p>
+        </div>
+        <div class="footnote print">
+            <hr/>
+            <sup>#</sup>?<br/>
+        </div>
+        <script>
+            window.print();
+        </script>
+    </body>
+</html>
