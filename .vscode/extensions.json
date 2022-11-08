@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+        "sidthesloth.html5-boilerplate",
+        "tht13.html-preview-vscode",
+        "abusaidm.html-snippets",
+        "hdg.live-html-previewer",
+        "zignd.html-css-class-completion",
+        "bierner.github-markdown-preview",
+        "davidanson.vscode-markdownlint",
+        "esbenp.prettier-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "ms-vsliveshare.vsliveshare-pack",
+        "bierner.color-info",
+        "pdconsec.vscode-print",
+        "ms-vscode.wordcount",
+        "eamodio.gitlens",
+        "visualstudioexptteam.vscodeintellicode"
+    ]
+}
