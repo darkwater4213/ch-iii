@@ -1,0 +1,55 @@
+/****************************
+ * class: JA2               *
+ * type:  worksheet         *
+ * cycle: invention         *
+ * title: Character Bias    *
+ ****************************/
+
+/*
+Key Terms
+===============================================================================
+ADMONISH:       To chasten, cleanse, correct, or punish in love
+BIAS:           The inclination to favor or oppose people, institutions,
+                actions, things, ideas, or opinions. The word bias is Greek for
+                “a leaning.”
+DEFENDANT:      The character who took the action of the issue
+ACTION:         The action/verb in an issue
+EFFECT OF THE ACTION:
+                Helps us identify the victim 
+VICTIM:         The person or group hurt by the action of the issue
+*/
+
+{
+    "defendant": "Brutus",
+    "action": "Killing Caesar",
+    "effects": [
+        "Civil War"
+    ],
+    "victims": "Much -- no, most of Rome",
+    "judges": [
+        "Caesar",
+        "Calphurnia",
+        "Cassius",
+        "Mark Antony"
+    ],
+    "biases": {
+        "defendant": [
+            "For: Good friends",
+            "Neutral: Caesar's friend, not hers",
+            "For: Saved Caesar from drowning",
+            "For: (I would assume lol)"
+        ],
+        "action": [
+            "For: \"<i>Et tu, Brute</i> -- then fall Caesar,\"",
+            "Against: She's his wife...",
+            "For: Ascension (of the social ladder), greed, envy",
+            "Against: Close w/ Caesar; nephew"
+        ],
+        "victim": [
+            "For: Self",
+            "For: Wife",
+            "Against: Envy; admission in I.ii",
+            "For: (Adopted?) nephew"
+        ]
+    }
+}
