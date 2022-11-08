@@ -1,0 +1,88 @@
+/****************************
+ * class: JA2               *
+ * type:  worksheet         *
+ * cycle: arrangement       *
+ * notes: Outline           *
+ ****************************/
+ {
+    "introduction": {
+        "exordium": "<!-- Add this in... :( -->",
+        "narratio": [
+            "Caesar rose to power",
+            "Caesar assumed command of the Roman armies",
+            "Cassius envied Caesar",
+            "Brutus sought to spare Rome the yoke of Caesar's inevitable reign as king",
+            "Brutus, Cassius, etc. killed Caesar"
+            // ?action ?location ?time
+        ],
+        "division": {
+            "agreement": [
+                "By Brutus's hand did Caesar fall",
+                "Caesar rose to power",
+                "Cassius had evil intentions"
+            ],
+            "disagreement": {
+                "thesis": "Brutus acted honorably in killing Caesar",
+                "counter": "Brutus is fully responsible for Caesar's death and all the consequences thereof"
+            }
+        },
+        "distribution": {
+            // $introduction.division.disagreement.thesis
+            "exposition": [
+                "Brutus was an honorable man",
+                "Brutus was not the sole agent -- and hardly the first",
+                "Caesar's last words"
+            ]
+        },
+        // this bit is only here to define the object keys -- just ignore it
+        "refutation": [
+            "corruption",
+            "betrayal"
+        ]
+    },
+
+    "case": [
+        [
+            "Caesar was Brutus's best friend",
+            "Brutus would not kill without direct intention",
+            "Brutus's intent was to spare Rome the yoke Caesar would place upon her"
+        ],
+        [
+            "Brutus did not act alone",
+            "Brutus was the only conspirator with pure intentions",
+            "The blame should not -- indeed, cannot fall to Brutus"
+        ],
+        [
+            "\"<i>Et tu, Brute</i> -- then fall Caesar.\" is not a question",
+            "Caesar was not expressing betrayal or bitterness",
+            "Caesar was recognizing Brutus's decision as valid for the greater cause of Rome",
+            "That is to say, Caesar's last words were a pardon unto Brutus"
+        ]
+    ],
+
+    "refutation": [
+        // $introduction.division.disagreement.thesis
+        [
+            "Brutus's actions become more twisted and corrupted as the play progresses",
+            "(example I ?expand)",
+            "(example II ?expand)",
+            "Simply ignorant. Brutus demanded the conspirators maintain honor to the very end -- even if it meant letting their forces go on furlough."
+        ],
+        [
+            "Brutus betrayed his best friend -- and Caesar said so.",
+            "(example I ?expand)",
+            "(example II ?expand)",
+            "This is inconsistent with the Roman systems of thought and language..."
+        ],
+        "In short, the very thought that Brutus is anything but the greatest Roman is flawed, at best."
+    ],
+
+    "conclusion": {
+        // $introduction.division.disagreement.thesis
+        // $introduction.distribution.exposition
+        "amplification": {
+            "to": "Anyone who calls into question Brutus's virtue.",
+            "why": "Such claims are totally without merit, baseless, and materially false. As such, they must needs be combated at every turn, wherever they may show their ugly faces."
+        }
+    }
+}

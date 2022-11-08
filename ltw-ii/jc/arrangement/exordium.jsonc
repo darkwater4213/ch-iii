@@ -1,0 +1,160 @@
+/****************************
+ * class: JA2               *
+ * type:  worksheet         *
+ * cycle: arrangement       *
+ * notes: Refining the Exordium
+ ****************************/
+
+/* KEY TERMS  
+===============================================================================
+BIAS TO BLAME:  The inclination of a judge to find fault in the victim or
+                defendant.
+BIAS TO FAVOR:  The inclination of a judge to excuse or praise the victim or
+                defendant.
+BIAS TO APPROVE:
+                The inclination of a judge to believe the action is generally
+                appropriate.
+BIAS TO DISAPPROVE:
+                The inclination of a judge to believe the action is rarely
+                appropriate.
+GOODWILL:       A favorable inclination or disposition.
+ANECDOTE:       A short story about an incident or person.
+*** Nota Bene:  For the sake of the judicial address, students are free to
+                create stories of their own.
+JUDICIAL PARADOX:
+                A statement acknowledging that, while the victim or the
+                defendant's action or character appears to confirm the
+                judge's bias, the evidence will show the opposite.
+CLARIFICATION:  A statement in which the student makes clear that while the
+                judge expects him to argue X, he is actually going to argue Y.
+INDIRECT OPENING:
+                An Exordium that does not begin with the case itself.
+*** Nota Bene:  On rare occasions, speakers can proceed directly to the
+                case itself, without an introduction. However, this
+                approach is not taught in LTW.
+AUDIENCE:       A character or group from the story (other than the defendant,
+                the victim, or a personal witness) who will judge the case.
+*** Nota Bene:  LTW II uses the words "audience" and "judge" interchangeably.
+*/
+
+/* # Steps to Refine the Exordium  
+
+*** extracted from `../invention/bias.jsonc` ***  
+```jsonc  
+{
+    "defendant": "Brutus",
+    "action": "Killing Caesar",
+    "victims": "Much -- no, most of Rome",
+}
+```  
+
+*** extracted from `...?!?` ***  
+```jsonc  
+{
+    "issue": "Whether Brutus should have killed Caesar",
+}
+```  
+
+List four characters  from the story other than the defendant, victim, or personal witness that might be a Judge for you. The potential Judges must be inclined to disagree with your thesis.
+
+```jsonc
+{
+    "victims": [
+    ]
+}
+```
+
+Using the Character Bias Chart from Invention, identify each potential Judge's biases.
+
+Judge and his bias for or against...
+*/
+
+{
+    "judges": [
+        "Calphurnia", 
+        "Caesar",
+        "Mark Antony",
+        "Octavius"
+    ],
+    "biases": [
+        {
+            "defendant": "For: Transitivity; Against: Relationship",
+            "action": "Against: Loss",
+            "victim": "For: Spousal"
+        },
+        {
+            "defendant": "For: Friend",
+            "action": "For: Assent; \"<i>Et tu, Brute</i> -- Then fall Caesar.\"",
+            "victim": "For: Self"
+        },
+        {
+            "defendant": "Neutral",
+            "action": "Against: Loss",
+            "victim": "For: Uncle"
+        },
+        {
+            "defendant": "Against: Distinct animosity",
+            "action": "For: Power",
+            "victim": "Unknown"
+        }
+    ]
+}
+
+/*
+{
+    "judge": "",
+    "biases": [
+        "",
+        ""
+    ],
+    "message": "",
+    "kind": "",
+}
+*/
+
+/*
+CHARTS FOR REFERENCE:
+#1 Prosecution: (Use this chart OR the defense chart below.) Affirmative
+Part of the Issue
+Potential Judge
+Message of the Exordium
+Kinds
+
+Victim
+Judge dislikes the victim, blames the victim, does not sympathize with the victim, thinks the victim triggered the action, or thinks the victim does not deserve compassion.
+Opposing victim is bad.
+Anecdote: shows, through a story, how not compensating the victim caused harm to someone to something, or shows the judge that his view of opposing the victim causes harm or is incorrect.
+
+Defendant
+Judge likes the defendant, sympathizes with the defendant, thinks the defendant was provoked, or thinks the defendant did not really do harm.
+Favoring the defendant is bad.
+Paradox: shows that the defendant appears good or innocent but is not, that his view of favoring the defendant is not right.
+
+Action
+Judge supports the action, does not think the action bad or does not think the action deserves punishment.
+The action is actually bad.
+Clarification: anticipates what the judge might expect to hear from you. Start with common ground, then use this to clarify what is actually true, that the action is bad, harmful, undesirable, or could lead to further crime.
+*/
+
+/*
+#2 Defense: (Use this chart OR the prosecution chart below.) Negative
+Part of the Issue
+Potential Judge
+Message of the Exordium
+Kinds
+
+Victim
+Judge likes the victim, sympathizes with the victim, thinks the victim deserves compensation, or thinks the victim has been harmed.
+Favoring the victim is bad.
+Paradox: shows that the victim appears good but is not or it does not matter, or shows the judge that his view of favoring the victim causes harm or is incorrect.
+
+Defendant
+Judge dislikes the defendant, thinks the defendant is bad or harmful, thinks the defendant needs or deserves punishment.
+Opposing the defendant is bad.
+Anecdote: shows, through an analogous story, how punishing a different defendant caused subsequent harm, or that opposing another defendant turned out to be wrong, or that some other punished defendant was really a good person.
+
+Action
+Judge dislikes the action, believes the action to be harmful, or thinks the action is worthy of punishment.
+The action is not as bad as it seems.
+Clarification: anticipates what the judge might expect to hear from you. Start with common ground, then use this to clarify what is actually true, that the action was acceptable or even good in some way.
+*/
