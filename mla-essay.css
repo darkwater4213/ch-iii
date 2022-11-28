@@ -1,59 +1,59 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 1in, 1in, 1in, 1in;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 1in, 1in, 1in, 1in;
 }
 
 @page {
-    margin: 1in;
+	margin: 1in;
 }
 
 @media print {
-    div.header p.print {
-        display: table-header-group;
-    }
+	div.header p.print {
+		display: table-header-group;
+	}
 
-    div.content p.print {
-        display: table-row-group;
-    }
+	div.content p.print {
+		display: table-row-group;
+	}
 
-    div.footer p.print {
-        display: table-footer-group;
-    }
+	div.footer p.print {
+		display: table-footer-group;
+	}
 
-    .screen {
-        display: none;
-    }
+	.screen {
+		display: none;
+	}
 
-    cite {
-        font-style: normal;
-    }
+	cite {
+		font-style: normal;
+	}
 
-    .break {
-        page-break-before: always;
-    }
+	.break {
+		page-break-before: always;
+	}
 }
 
 @media screen {
-    .print {
-        display: none;
-    }
+	.print {
+		display: none;
+	}
 }
 
 .title {
-    font-size: 24pt;
-    text-align: center;
+	font-size: 24pt;
+	text-align: center;
 }
 
 .subtitle {
-    font-size: 16pt;
-    text-align: center;
-    /* font-style: oblique; */
-    color: grey;
+	font-size: 16pt;
+	text-align: center;
+	/* font-style: oblique; */
+	color: grey;
 }
 
 .content {
-    font-size: 11pt;
-    text-align: justify;
-    line-height: 2;
-    text-indent: 0.5in;
+	font-size: 11pt;
+	text-align: justify;
+	line-height: 2;
+	text-indent: 0.5in;
 }
