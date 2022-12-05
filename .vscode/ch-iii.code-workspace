@@ -4,5 +4,15 @@
 			"path": ".."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"Casca",
+			"Cinna",
+			"darkwater",
+			"Decius",
+			"Domin",
+			"Metellus",
+			"Trebonius"
+		]
+	}
 }
