@@ -1,0 +1,78 @@
+/****************************
+ * class: JA3               *
+ * type:  worksheet         *
+ * cycle: arrangement       *
+ * notes: Outline Template  *
+ ****************************/
+{
+    "introduction": {
+        "exordium": "Ephesians 5:22",
+        "narratio": [
+            "Bn wishes to marry but Bt wants K to marry first",
+            "P agrees and then puts K (shrew) through a gauntlet of ridiculousness"
+            // action location time
+        ],
+        "division": {
+            "agreement": "K is a shrew",
+            "disagreement": {
+                "thesis": "P is justified in his treatment of K",
+                "counter": "P's behavior is incorrigible and must be admonished"
+            }
+        },
+        "distribution": {
+            // thesis
+            "enum": "three",
+            "exposition": [
+                "L, H want Bn",
+                "K attitude",
+                "Results"
+            ]
+        }
+    },
+    "case": [
+        [
+            "L and H want Bn but Bt demands K marry first",
+            "P offers marry K on conds.",
+            "incl. clean up her attitude"
+        ],
+        [
+            "problems manifest...",
+            "K == shrew",
+            "K != want marry"
+        ],
+        [
+            "K learns mean. subm.",
+            "shrew => humble",
+            "P was carrying out his God-given duty."
+        ]
+    ],
+
+    "refutation": [
+        // Counter Thesis*
+        [
+            "results in min. disasters",
+            "Gr's tale @ lack of fire (IV.i)",
+            "pain == part of the process"
+        ],
+        [
+            "Patriarchy != beneficial",
+            "submission isn't in womans' job description",
+            "Eph. 5:22 cont's: Husbands, love your wives.",
+            "sacrifice... is the Bible anti-men?"
+        ],
+        ""
+    ],
+
+    "conclusion": {
+        "thesis": "P is justified in his treatment of K",
+        "summary": [
+            "L, H want Bn",
+            "K attitude",
+            "Results"
+        ],
+        "amplification": {
+            "to": "Feminists",
+            "why": "The Bible is anti-men"
+        }
+    }
+}
