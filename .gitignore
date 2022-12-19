@@ -1,8 +1,16 @@
-*.png
-*.pdf
+# Emacs auto-genearted content
+*~
+*#
+
+# Statically genarated pages
 static*
+*.pdf
+
+# Assets and images
 assets*
 *.sh
+
+# Deprecated content formats
 s?wk??*_*.html
 templates*
 stuff*
