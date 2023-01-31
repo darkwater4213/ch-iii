@@ -9,11 +9,11 @@
 		"davidanson.vscode-markdownlint",
 		"esbenp.prettier-vscode",
 		"streetsidesoftware.code-spell-checker",
-		"ms-vsliveshare.vsliveshare-pack",
 		"bierner.color-info",
 		"pdconsec.vscode-print",
 		"ms-vscode.wordcount",
 		"eamodio.gitlens",
-		"visualstudioexptteam.vscodeintellicode"
+		"visualstudioexptteam.vscodeintellicode",
+		"ms-vsliveshare.vsliveshare"
 	]
 }
