@@ -1,0 +1,79 @@
+/****************************
+ * class: JA4               *
+ * type:  worksheet         *
+ * cycle: arrangement       *
+ * notes: Outline Template  *
+ ****************************/
+ {
+    "introduction": {
+        "exordium": "",
+        "narratio": [
+            "",
+            ""
+            // action location time
+        ],
+        "division": {
+            "agreement": "Cassius wanted to depose Caesar; even kill him&mdash;if necessary.",
+            "disagreement": {
+                "thesis": "Brutus is guilty, not Cassius.",
+                "counter": "Cassius convinced Brutus to kill Caesar."
+            }
+        },
+        "distribution": {
+            // thesis
+            "enum": "three",
+            "exposition": [
+                "Chain of Custody of Information",
+                "Ironic speech",
+                "Brutus's faults"
+            ]
+        }
+    },
+    "case": [
+        [
+            "Cassius had appealed to Brutus's vanity",
+            "But Brutus refused to admit that, even to himself. He therefore justified his plans.",
+            "But Cassius did not even suggest Caesar be deposed. He merely pointed out Caesar's numerous flaws. Brutus did all the heavy lifting."
+        ],
+        [
+            "Brutus had said that they were \"sacrificers, not butchers\"",
+            "Funny he should say that, him stabbing Caesar \"in the privities\" (according to Plutarch, that esteemed Roman historian). But that's not all. He rejects Cicero's involvement out of hand for his being too prideful.",
+            "This is ridiculous, as anyone can see: Brutus is clearly the more prideful of the two, and had seized control of the conspiracy simply because he's Brutus, and that's that."
+        ],
+        [
+            "Brutus is not quite the honorable man Mark Antony makes him out to be. In fact, the cry of \"Brutus is an honorable man!\" was a shout of derision, a blatant insult and attack against the character of the conspirators, and Brutus in particular.",
+            "His colossal vanity (and not-so-colossal intellect) had prompted him to let Antony take the Forum Stand on the condition that he not say anything against the conspirators. Antony gave him exactly what he wanted to hear: the cry of \"Honorable Brutus!\", tearing him and his plot to shreds.",
+            "His blind faith in himself also prompted him to reject out-of-hand multiple sensible suggestion mode by other members of the conspiracy, including eliminating Antony, as any proper assassination attempt would, or including further assets, such as Cicero."
+        ]
+    ],
+
+    "refutation": [
+        // Counter Thesis*
+        [
+            "But Brutus is an honorable man; even Mark Antony, their clear enemy says so!",
+            "And it is not just he who says so, but Cassius, Casca, even Caesar himself!",
+            "And Caesar even placed his own life in Brutus's hands; he trusted that Brutus would act for the good of Rome.",
+            "But there's a problem. Caesar was a natural-born politician, and if there is one thing does not come naturally to the body politick, it is transparent honesty. Caesar's motives were likely along the lines of appeasing the public; pardoning the once-traitor Brutus would give him a much-needed PR boost in the eyes of Rome. But now the once-army-stealer was sharpening his gilded knife once more, to plunge straight into Caesar's proverbial back."
+        ],
+        [
+            "",
+            "",
+            "",
+            ""
+        ],
+        ""
+    ],
+
+    "conclusion": {
+        // thesis
+        "summary": [
+            "",
+            "",
+            ""
+        ],
+        "amplification": {
+            "to": "",
+            "why": ""
+        }
+    }
+}
