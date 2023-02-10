@@ -1,0 +1,9 @@
+/* code-font.css */
+code,.code {
+	font-family:
+		'Fira Code',
+		'../../assets/fonts/FiraCode-Regular.ttf',
+		'DejaVu Sans Mono',
+		'Monospace',
+		monospace;
+}
