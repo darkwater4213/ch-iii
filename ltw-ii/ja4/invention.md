@@ -1,25 +1,28 @@
 # JA4 Evidence | Whether Cassius convinced Brutus to conspiracy  
 
-I"ve included the evidence in a sort of object-oriented C++-like pseudocode. It"s very readable and explicit, and thus rather difficult to misinterpret. Almost all syntactical meaning can be inferred from context, but a few things aren't quite clear.
+I've included the evidence in a sort of object-oriented C++-like pseudocode. It's very readable and explicit, and thus rather difficult to misinterpret. Almost all syntactical meaning can be inferred from context, but a few things aren't quite clear. So I've included some...
+
 <details title="Disambiguation">
+
 - Citations have been included as comments, `// like this`
 - Bangs indicate negation, so `!true == false`
 - I"ve used the `=>`, `==!=>`, and `<<` tokens to indicate various things, including movement, interruptions, insertion, and definitions (of lambdas)
 - `&&` means "and". We don"t use a single ampersand because we already use it for two other things: addressing/referencing and bitwise AND (not the same as a logical and). Similarly, `==` is used to denote equality (because `=` denotes var assignment).
-- The inconsistency with semicolons... isn"t. The end of a block (demarcated by `{braces}`) implies a semicolon. Before or after, it hardly matters. Most real-world languages have fairly loose syntax nowadays, anyway. Just look at Swift.
+- The inconsistency with semicolons... isn't. The end of a block (demarcated by `{braces}`) implies a semicolon. Before or after, it hardly matters. Most real-world languages have fairly loose syntax nowadays, anyway. Just look at Swift.
 - The `this` and `that` keywords refer to whatever the statement being made is and the previous statement, respectively.
 - `try {} catch {}` blocks are here used to facetiously denote deception. `try` refers to what is said, and `catch` to the reality. (This is a very loose interpretation of its actual use: a form of error handling using a concept known as "exceptions". Ever got a popup saying something along the lines of "uncaught exception"? Now you know.)
 - The `std::iterator` is a joke. So is the `eval()` function.
 - The dot operator `.` refers to a member, method, property, etc. of an object. Objects are usually capitalized. It"s an abstraction, nothing more.
-- I use type annotations (`var: type;`) to add meaning where necessary. For instance, marking an ironic sentence as such.
+- I use type annotations (`var: type;`) to add meaning _where necessary_. For instance, marking an ironic sentence as such: `Brutus.assert("something stupid"): String.Ironic;`
 - The `assert()` function and `claim()` method are about making statements. It"s hard to explain, but you"ll figure it out. The difference between the two is justification (or lack thereof).
 - The `has()` `want()` `goal()` and `purpose()` methods are fairly self-explanatory.
 - The `ego` and `self` object members are also straightforward. `own` refers to ownership (not like Rust), so `Brutus.own` would contain Brutus"s garden as one of its members.
 - `alias` is a directive to essentially create a shorthand. Because they usually involve methods, I prepend them with a `.`
-</details>.
+
+</details>
 
 ```c++
-Caesar.triumph() => assert(crown.offered.\{3x6});
+Caesar.triumph => assert(crown.offered.\{3x6});
 Cassius.butter(Brutus) {
   this.purpose = {
     Cassius.want(Caesar.depose())
@@ -92,4 +95,4 @@ Conspirators.butcher(Caesar) {
   // III.i.105-10
   self.mock(Caesar.death); // III.i.114-16
 };
-```
+```  
