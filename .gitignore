@@ -1,9 +1,10 @@
 *.png
 *.pdf
 static*
-assets*
+*assets*
 *.sh
 s?wk??*_*.html
 templates*
 stuff*
 *~
+_*

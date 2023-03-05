@@ -1,7 +1,7 @@
 # 1AC  
 
-> Saying you don't need the right to privacy because you have nothing to hide is like saying you don't need the right to freedom of speech because you have nothing to say.  
+> Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say.  
 
-Source: [Richard Stallman](?find) ?verify  
+Source: [Edward Snowden]()  
 
 <!-- perhaps include something about Citizenfour -->  
