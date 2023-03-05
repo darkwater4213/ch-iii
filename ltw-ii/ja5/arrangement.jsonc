@@ -1,0 +1,79 @@
+/****************************
+ * class: JA5               *
+ * type:  worksheet         *
+ * cycle: arrangement       *
+ * notes: Outline Template  *
+ ****************************/
+{
+	"introduction": {
+		"exordium": " ",
+		"narratio": [
+			"",
+			""
+			// action location time
+		],
+		"division": {
+			"agreement": "Brutus did kill Caesar; Cassius was a part of the conspiracy",
+			"disagreement": {
+				"thesis": "Cassius ought not be punished for Caesar's death",
+				"counter": "Cassius ought te be punished for killing Caesar"
+			}
+		},
+		"distribution": {
+			// thesis
+			"enum": "three",
+			"exposition": [
+				"Brutus's decision to kill Caesar was utterly independent",
+				"Cassius never mentions Caesar's deposition, much less death, until Brutus does",
+				"Cassius was acting in Rome's interest; Brutus was the selfish and envious one"
+			]
+		}
+	},
+	"case": [
+		[
+			"Brutus was justifying Caesar's demise to himself, alone in his own garden",
+			"He decided that Caesar must die&mdash;and justified it with some nonsense over potential tyranny",
+			"Cassius had yet to make an appearance, or even suggest Caesar's deposition, much less death. Brutus had killed Caesar long before Cassius even approached him"
+		],
+		[
+			"Cassius mentions many things to Brutus during the feast of Lupercal: Caesar's failures, his shortcomings, even his inadequacy as a potential king",
+			"But he never even suggests that Caesar be deposed, much less disposed of. In fact, he praises Caesar, even recounting when Caesar had saved him from drowning",
+			"Ultimately, the decision to kill Caesar was Brutus's to make, and Cassius did nothing to change his mind. He simply delivered the inevitable, one word at a time"
+		],
+		[
+			"As a matter of fact, Cassius was simply detailing Caesar's poor leadership",
+			"Cassius was acting out of concern for Rome; no intellectually honest Roman citizen would refuse to criticize a leader on the sole merit of their being a leader",
+			"But Brutus was in fact actig out of selfish ambition and vain conceit, unlike Cassius"
+		]
+	],
+
+	"refutation": [
+		// Counter Thesis*
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		""
+	],
+
+	"conclusion": {
+		"thesis": "Cassius ought not be punished for Caesar's death",
+		"summary": [
+			"Brutus's decision to kill Caesar was utterly independent",
+			"Cassius never mentions Caesar's deposition, much less death, until Brutus does",
+			"Cassius was acting in Rome's interest; Brutus was the selfish and env"
+		],
+		"amplification": {
+			"to": "",
+			"why": ""
+		}
+	}
+}
