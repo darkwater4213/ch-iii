@@ -6,7 +6,7 @@
  ****************************/
 {
 	"introduction": {
-		"exordium": " ",
+		"exordium": "",
 		"narratio": [
 			"",
 			""
@@ -43,25 +43,25 @@
 		[
 			"As a matter of fact, Cassius was simply detailing Caesar's poor leadership",
 			"Cassius was acting out of concern for Rome; no intellectually honest Roman citizen would refuse to criticize a leader on the sole merit of their being a leader",
-			"But Brutus was in fact actig out of selfish ambition and vain conceit, unlike Cassius"
+			"But Brutus was in fact acting out of selfish ambition and vain conceit, unlike Cassius"
 		]
 	],
 
 	"refutation": [
 		// Counter Thesis*
 		[
-			"",
-			"",
-			"",
-			""
+			"But Brutus did not act alone",
+			"In fact, he had taken control of Cassius's group of dissidents and turned them into murderers",
+			"But that was Brutus",
+			"That was not Cassius"
 		],
 		[
-			"",
-			"",
-			"",
-			""
+			"And Brutus was called an honorable man. An honorable man! By a man who should have been dead",
+			"A man whose life was Brutus's death",
+			"and the end of Cassius...",
+			"to the greater glory of Rome"
 		],
-		""
+		"How ironic that the greatest attempt against tyranny ended ultimately in the most tyrannical dictator Rome had ever seen. The king is dead&mdash;long live the king."
 	],
 
 	"conclusion": {
@@ -69,11 +69,11 @@
 		"summary": [
 			"Brutus's decision to kill Caesar was utterly independent",
 			"Cassius never mentions Caesar's deposition, much less death, until Brutus does",
-			"Cassius was acting in Rome's interest; Brutus was the selfish and env"
+			"Cassius was acting in Rome's interest; Brutus was the selfish and envious one"
 		],
 		"amplification": {
-			"to": "",
-			"why": ""
+			"to": "The reign of tyrants is not in single men or leaders, but in the people&mdash;tyrants are only so because the people let them be tyrants",
+			"why": "But more so, the people is the true tyrant. That men can gather and plot, and thereby deny another his rights is deplorable. The lesson of Brutus is not to dispose of tyrants, but to prevent oneself from becoming a tyrant"
 		}
 	}
 }
