@@ -1,8 +1,11 @@
 .PHONY: all
-all: debate
+all: setup debate
+
+.PHONY: setup
+setup:
+	@./setup.sh
 
 .PHONY: debate
 debate:
-	pushd debate/s2/wk5
-	make
-	popd
+	@alias printm; printf "Building ${ANSI_BOLD}${ANSI_BLUEB}debate/s2/wk5${ANSI_COLOR}\n"
+	@make -C debate/s2/wk5
