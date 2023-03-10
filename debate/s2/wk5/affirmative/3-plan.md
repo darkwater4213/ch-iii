@@ -2,7 +2,7 @@
 
 ### Mandate  
 
-Any and all public CCTV (closed-circuit) monitoring systems shall be owned privately and regulated to ensure that no data ever "leaves the building" without a warrant.  
+Any and all public CCTV (closed-circuit) monitoring systems shall be owned privately and well-regulated to ensure that no data ever "leaves the building" without a warrant.  
 
 ### Agency  
 
