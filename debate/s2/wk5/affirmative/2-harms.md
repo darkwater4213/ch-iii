@@ -14,41 +14,41 @@ This applies everywhere, especially the right to retain control of your own info
 
 Source
 
-<!-- ### Harm ?: EFA/EFF Principles  
+### Harm 2: EFA/EFF Principles  
+
+The EFF (Electronic Frontier Foundation), on international technology wotchdog organization:  
 
 > As a member organization of the EFA, we believe that technology should support the intellectual freedom at the heart of a democratic society. In the digital age, that entails advancing:  
 >
-> 1. Free Expression
-> People should be able to speak their minds to whoever will listen.  
+> _\[...\]_
 >
-> 2. Security
-> Technology should be trustworthy and answer to its users.  
->
-> 3. Privacy
+> (3) Privacy
 > Technology should allow private and anonymous speech, and allow users to set their own parameters about what to share with whom.  
 >
-> 4. Creativity
-> Technology should promote progress by allowing people to build on the ideas, creations, and inventions of others.  
+> _\[...\]_
 >
-> 5. Access to Knowledge
-> Curiosity should be rewarded, not stifled.
-> We uphold these principles by fighting for transparency and freedom in culture, code, and law.   -->
+> We uphold these principles by fighting for transparency and freedom in culture, code, and law.
 
-### Harm ?: (Mozilla) Principles  
+Source: [The EFF](https://www.eff.org/electronic-frontier-alliance)
 
-<!--
-Mozilla's 10 Principles: 4, 8, and 9
+### Harm 3: Mozilla Principles  
+
+Mozilla, the non-profit behind Firefox and Thunderbird, has drafted a Manifesto for the internet, detailing what they believe the internet should look like and why. The following are three of their Ten Principles, regarding the privacy of individuals and mass surveillance.  
 
 > #### Principle 4
+>
 > Individuals’ security and privacy on the internet are fundamental and must not be treated as optional.
 >
 > #### Principle 8
+>
 > Transparent community-based processes promote participation, accountability and trust.
 >
 > #### Principle 9
+>
 > Commercial involvement in the development of the internet brings many benefits; a balance between commercial profit and public benefit is critical.
--->
 
-### Harm 2: Security  
+Source: [The Mozilla Manifesto, Mozilla](https://www.mozilla.org/en-US/about/manifesto/)
+
+### Harm 4: Security  
 
 When CCTV footage "leaves the building" (a technical term referring to data being transmitted, especially wirelessly, through any insecure area). A physically isolated computer system (that is, one with no networking capabilities whatsoever) is extremely secure&mdash;anyone attempting to gain access would necessarily have to physically present, which is quite the hurdle for a would-be dataminer to jump. -->
