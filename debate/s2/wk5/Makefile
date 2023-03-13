@@ -1,38 +1,23 @@
 include ../../../aliases.mak
 .PHONY: all
 all: affirmative/_index.md negative/_index.md
-	@printf "$Odebate/s2/wk5$N"
-	@printf "$M Done compiling $(DIR)*/$(FILE)_index.md\b$N"
-	@rm *.cookie
+	@rm $(ls -R | grep done.cookie) 2>/dev/null && printf "$Odebate/s2/wk5$N$M Done compiling $(DIR)*/$(FILE)_index.md\b$N" || printf "$E Nothing to be done for $(DIR)debate/s2/wk5$N!"
 
 affirmative/_index.md: affirmative/*-*.md
-	@if [ -e call.cookie ]; then
-	@	printf "$T$M Compiling $(DIR)affirmative/$(FILE)_index.md$R..."
-	@else
-	@	printf "$M Compiling $(DIR)affirmative/$(FILE)_index.md$R..."
-	@fi
+	@if [ -e call.cookie ]; then printf "$T$M Compiling $(DIR)affirmative/$(FILE)_index.md$R..."; else printf "$M Compiling $(DIR)affirmative/$(FILE)_index.md$R..."; fi
 	@cat `ls affirmative/* | grep "-"` >> $@
 	@printf "\t\tDone!$N"
-	@touch .affirmative__index.md.cookie
+	@touch affirmative/done.cookie
 
 negative/_index.md: negative/*-*.md
-	@if [ -e call.cookie ]; then
-	@	printf "$T$M Compiling $(DIR)negative/$(FILE)_index.md$R..."
-	@else
-	@	printf "$M Compiling $(DIR)negative/$(FILE)_index.md$R..."
-	@fi
+	@if [ -e call.cookie ]; then printf "$T$M Compiling $(DIR)negative/$(FILE)_index.md$R..."; else printf "$M Compiling $(DIR)negative/$(FILE)_index.md$R..."; fi
 	@cat `ls negative/* | grep "-"` >> $@
 	@printf "\t\tDone!$N"
-	@touch .negative__index.md.cookie
+	@touch negative/done.cookie
 
 .PHONY: clean
 clean:
 	@printf "$T$M Cleaning $(DIR)debate/s2/wk5$N"
 	@printf "$T$W Removing $(DIR)*/$(FILE)_index.md$R..."
-	@rm */_index.md # 2>/dev/null
-	@if [ $? -eq 0 ]; then
-	@	printf "\t\tDone!$N"
-	@else
-	@	printf "\n$T$E Problems removing $(DIR)*/$(FILE)_index.md$R; do they exist?$N"
-	@fi
-	@rm *.cookie 2>/dev/null
+	@rm */_index.md 2>/dev/null && printf "\t\tDone!$N" || printf "\n$T$E Problems removing $(DIR)*/$(FILE)_index.md$R; do they exist?$N"
+	@rm *.cookie 2>/dev/null || touch fail.cookie
