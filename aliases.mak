@@ -37,3 +37,10 @@ C := $T$(YELLOWB)[@]$R: Entering$(DIR)
 O := $T$(YELLOWB)[@]$R: Leaving$(DIR)
 E := $T$(RED)[!]$R:
 P := $T$(PURPLE)[?]$R:
+
+MCLEANDIR := printf "$M Cleaning $(DIR)%b/$N"
+CHECK := test ! -e call.cookie || printf "%b"
+RETURN := mv call.cookie done.cookie 2>/dev/null; test ! -e call.cookie
+CATCH := 2>/dev/null && printf "\t\tDone!$N" || printf "%b"
+MAKECATCH := | grep -vE "make\[.\]:" || printf "%b"
+FAIL := $(CHECK) \$(touch fail.cookie)

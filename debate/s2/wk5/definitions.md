@@ -8,13 +8,13 @@
 
 Source: [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/curtail)  
 
-- [ ] accepted  
+- \[ \] accepted  
 
 ### Domestic surveillance _(n.)_  
 
 > ...  
 
-- [ ] accepted  
+- \[ \] accepted  
 
 ### Free _(adj.)_  
 
@@ -27,5 +27,5 @@ The FSF catalogues the Four Freedoms necessary for a given thing to be "free" as
 
 Source: [FSF,](https://fsf.org/) [The GNU project](https://gnu.org/)
 
-- [ ] accepted  
+- \[ \] accepted  
 
