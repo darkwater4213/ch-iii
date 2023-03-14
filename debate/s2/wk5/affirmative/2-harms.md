@@ -52,3 +52,4 @@ Source: [The Mozilla Manifesto, Mozilla](https://www.mozilla.org/en-US/about/man
 ### Harm 4: Security  
 
 When CCTV footage "leaves the building" (a technical term referring to data being transmitted, especially wirelessly, through any insecure area). A physically isolated computer system (that is, one with no networking capabilities whatsoever) is extremely secure&mdash;anyone attempting to gain access would necessarily have to physically present, which is quite the hurdle for a would-be dataminer to jump. -->
+

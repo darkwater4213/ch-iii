@@ -18,3 +18,4 @@ The Legislative Branch (Congress)
 
 Not Applicable: No Funding Required  
 <!-- Monetarily compensating CCTV owners would create horrendously perverse incentives, turning the U.S. into the very thing we wish to avoid. -->
+

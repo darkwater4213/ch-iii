@@ -28,3 +28,4 @@ The FSF catalogues the Four Freedoms necessary for a given thing to be "free" as
 Source: [FSF,](https://fsf.org/) [The GNU project](https://gnu.org/)
 
 - [ ] accepted  
+
