@@ -7,6 +7,7 @@ index.html: _index.md
 	@kramdown $< > $@ $(CATCH) "$E Compilation threw errors, please check your markdown.$N"
 	@printf "$O negative/$N"; $(RETURN)
 
+.PRECIOUS: _index.md
 _index.md: *-*.md
 	@$(CHECK) "$C negative/$N$T$T";
 	@printf "$M Creating $(DIR)negative/$(FILE)$@$R..."
