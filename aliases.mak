@@ -48,5 +48,4 @@ CHECK := test ! -e call.cookie || printf "%b"
 CONSOLIDATE := { mv */fail.cookie . --force 2>/dev/null; mv */fail.cookie . --force 2>/dev/null; { test -e fail.cookie && printf "$E Failed to build "; } && touch print.cookie; } || { mv */done.cookie . --force 2>/dev/null; mv */done.cookie . --force 2>/dev/null; { test -e done.cookie && printf "$M Done building " || printf "$E Nothing to be done for "; } && touch print.cookie; }; rm call.cookie 2>/dev/null || rm fail.cookie done.cookie 2>/dev/null; test ! -e print.cookie || printf "$(DIR)%b"
 RETURN := rm print.cookie 2>/dev/null; mv call.cookie done.cookie --force 2>/dev/null; test ! -e call.cookie
 CATCH := 2>/dev/null && printf "\t\tDone!$N" || printf "%b"
-MAKECATCH := | grep -vE "make\[.\]:" || printf "%b"
 FAIL := $(CHECK) \$(touch fail.cookie)
