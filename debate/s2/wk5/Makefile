@@ -26,10 +26,10 @@ clean:
 	@$(CHECK) "$T$T$M Cleaning $(DIR)$(FOLDER)$N"
 	@$(CHECK) "$T"
 	@printf "$W Removing $(DIR)*/$(FILE)_index.md$R..."
-	@rm */_index.md $(CATCH) "\n$T$T$E Problems removing $(DIR)*/$(FILE)_index.md$R; do they exist?$N"; $(FAIL)
+	@rm */_index.md $(CATCH) "$N$T$T$E Problems removing $(DIR)*/$(FILE)_index.md$R; do they exist?$N"; $(FAIL)
 	@$(CHECK) "$T"
 	@printf "$W Removing $(DIR)*/$(FILE)index.html$R..."
-	@rm */index.html $(CATCH) "\n$T$T$E Problems removing $(DIR)*/$(FILE)index.html$R; do they exist?$N"; $(FAIL)
+	@rm */index.html $(CATCH) "$N$T$T$E Problems removing $(DIR)*/$(FILE)index.html$R; do they exist?$N"; $(FAIL)
 	@$(CHECK) "$T"
 	@printf "$W Removing $(FILE)*.html$R..."
-	@rm *.html $(CATCH) "\n$T$T$E Problems removing $(FILE)*.html$R; do they exist?$N"; $(FAIL)
+	@rm *.html $(CATCH) "$N$T$T$E Problems removing $(FILE)*.html$R; do they exist?$N"; $(FAIL)
