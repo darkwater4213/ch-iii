@@ -1,4 +1,4 @@
-include aliases.mak
+include ../aliases.mak
 .PHONY: all
 all: 1ac.html 1nc.html
 	@rm */done.cookie 2>/dev/null && printf "$O debate/s2/wk5$N$M Done compiling $(DIR)*/$(FILE)_index.md\b$N" || printf "$E Nothing to be done for $(DIR)debate/s2/wk5$N"

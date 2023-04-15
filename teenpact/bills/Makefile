@@ -1,4 +1,4 @@
-include ../aliases.mak
+include ../../aliases.mak
 .PHONY: all
 
 all: dst.html duels.html lawsuits.html 
