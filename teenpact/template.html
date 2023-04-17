@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>	<html class="no-js lt-ie9 lt-ie8 lt-ie7">	<![endif]-->
+<!--[if IE 7]>		<html class="no-js lt-ie9 lt-ie8">			<![endif]-->
+<!--[if IE 8]>		<html class="no-js lt-ie9">					<![endif]-->
+<!--[if gt IE 8]>	<html class="no-js">						<![endif]-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>title</title>
+		<meta name="description" content="description">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./bill.css">
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<div class="pretext">
+			<div class="head">
+				<div class="title">
+					<p class="title" id="title">
+						<hr/>
+						$TITLE of $year
+						<hr/>
+					</p>
+				</div>
+				<p class="notes" id="notes"></p>
+				<table class="data">
+					<tr>
+						<td>State of Washington</td>
+						<td>$nthsession Legislature</td>
+						<td>$session</td>
+					</tr>
+				</table>
+				<p class="authors" id="authors">
+					<b>By</b>
+					$authors
+				</p>
+			</div>
+			<p class="purpose">
+				AN ACT Relating to $purposes;
+			</p>
+			<p class="effective">
+				BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF WASHINGTON:
+			</p>
+		</div>
+		<div class="sections">
+			<p class="section">
+				<ul>NEW SECTION.</ul>
+				<b>Sec. 1.</b>
+				$content
+			</p>
+		</div>
+		<p class="end">
+			--- END ---
+		</p>
+		<script>window.print();</script>
+	</body>
+</html>
