@@ -1,0 +1,15 @@
+body {
+	font-family: 'Fira Code', 'FiraCode Nerd Font', 'DejaVu Sans Mono', monospace;
+	margin: 0.5in, 0.5in, 0.25in, 0.5in;
+}
+
+.title {
+	display: center;
+	display: bold;
+
+}
+
+table.data {
+	text-align: center;
+	align-content: center;
+}
