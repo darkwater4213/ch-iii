@@ -5,75 +5,76 @@
  * notes: Outline Template  *
  ****************************/
 {
-    "introduction": {
-        "exordium": "",
-        "narratio": [
-            "",
-            ""
-            // action location time
-        ],
-        "division": {
-            "agreement": "",
-            "disagreement": {
-                "thesis": "",
-                "counter": ""
-            }
-        },
-        "distribution": {
-            // thesis
-            "enum": "three",
-            "exposition": [
-                "",
-                "",
-                ""
-            ]
-        }
-    },
-    "case": [
-        [
-            "",
-            "",
-            ""
-        ],
-        [
-            "",
-            "",
-            ""
-        ],
-        [
-            "",
-            "",
-            ""
-        ]
-    ],
+	"introduction": {
+		"exordium": "",
+		"narratio": [
+			"Hamlet learns of Claudius's treachery.",
+			"He swears to avenge his father.",
+			"This he does by killing Claudius."
+			// action location time
+		],
+		"division": {
+			"agreement": "",
+			"disagreement": {
+				"thesis": "",
+				"counter": ""
+			}
+		},
+		"distribution": {
+			// thesis
+			"enum": "three",
+			"exposition": [
+				"",
+				"",
+				""
+			]
+		}
+	},
+	"case": [
+		[
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			""
+		]
+	],
 
-    "refutation": [
-        // Counter Thesis*
-        [
-            "",
-            "",
-            "",
-            ""
-        ],
-        [
-            "",
-            "",
-            "",
-            ""
-        ],
-        ""
-    ],
+	"refutation": [
+		// Counter Thesis*
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		""
+	],
 
-    "conclusion": {
-        // thesis
-        "summary": [
-            "",
-            "",
-            ""
-        ],
-        "amplification": {
-            "to": "",
-            "why": ""
-        }
-    }
+	"conclusion": {
+		// thesis
+		"summary": [
+			"",
+			"",
+			""
+		],
+		"amplification": {
+			"to": "",
+			"why": ""
+		}
+	}
 }
