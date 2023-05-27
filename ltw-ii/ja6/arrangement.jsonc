@@ -5,76 +5,73 @@
  * notes: Outline Template  *
  ****************************/
 {
-	"introduction": {
-		"exordium": "",
-		"narratio": [
-			"Hamlet learns of Claudius's treachery.",
-			"He swears to avenge his father.",
-			"This he does by killing Claudius."
-			// action location time
-		],
-		"division": {
-			"agreement": "",
-			"disagreement": {
-				"thesis": "",
-				"counter": ""
-			}
-		},
-		"distribution": {
-			// thesis
-			"enum": "three",
-			"exposition": [
-				"",
-				"",
-				""
-			]
-		}
-	},
-	"case": [
-		[
-			"",
-			"",
-			""
-		],
-		[
-			"",
-			"",
-			""
-		],
-		[
-			"",
-			"",
-			""
-		]
-	],
+  "introduction": {
+    "exordium": "",
+    "narratio": [
+      "Hamlet learns of Claudius's treachery.",
+      "He swears to avenge his father.",
+      "This he does by killing Claudius."
+      // action location time
+    ],
+    "division": {
+      "agreement": "Hamlet, while responsible for Claudius's death",
+      "disagreement": {
+        "thesis": "arguably did not commit murder." /* ,
+				"counter": "" */
+      }
+    },
+    "distribution": {
+      // thesis
+      "enum": "three",
+      "exposition": [
+        "[refer:esv] If a man commits murder, then his life is forfeit.",
+        "Claudius's death was a literal accident; a mere <i>accidens</i> of Hamlet's vengance.",
+        "Vengance and murder are not the same thing; Hamlet is guilty of vengance and manslaughter&mdash;not murder."
+      ]
+      /*
+       *
+       * Note to the teacher:
+       *
+       * This feels like a somewhat sleazy criminal defense argument
+       * because that's kind of the point of the assignment.
+       *
+       * It's not really my fault...
+       * Though it IS quite entertaining to write.
+       *
+       */
+    }
+  },
+  "case": [
+    [
+      "Claudius did commit murder; Hamlet's ghost attested to it.",
+      "Hamlet verified this with the player's gambit",
+      "Hamlet is therefore totally justified in his deliverance of justice."
+    ],
+    [
+      "Hamlet's goal actually had nothing to do with killing Claudius",
+      "Claudius's death was simply a means to an end&mdash;the end of avenging Hamlet's death.",
+      "And as mentinoed previously, Claudius's life is forfeit; his death means nothing."
+    ],
+    [
+      "But beside that, Hamlet did not strictly murder Claudius.",
+      "Claudius's death was, as mentioned, a mere <i>accidens</i> to Hamlet's real goal of avunging his father.",
+      "In other words, Hamlet is guilty of many things: vengance and manslaughter. But not murder."
+    ]
+  ],
 
-	"refutation": [
-		// Counter Thesis*
-		[
-			"",
-			"",
-			"",
-			""
-		],
-		[
-			"",
-			"",
-			"",
-			""
-		],
-		""
-	],
+  "refutation": [
+    // Counter Thesis*
+    ["", "", "", ""],
+    ["", "", "", ""],
+    ""
+  ],
 
-	"conclusion": {
-		// thesis
-		"summary": [
-			"",
-			"",
-			""
-		],
-		"amplification": {
-			"to": "",
-			"why": ""
-		}
-	}
+  "conclusion": {
+    // thesis
+    "summary": ["", "", ""],
+    "amplification": {
+      "to": "",
+      "why": ""
+    }
+  }
 }

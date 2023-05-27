@@ -12,3 +12,8 @@ node_modules/
 
 *~
 _*
+
+*.zip
+*.gz
+*.xz
+*.tar*
